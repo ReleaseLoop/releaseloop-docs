@@ -50,7 +50,7 @@ If you have no unread notifications, no digest is sent.
 2. Toggle each notification type on or off
 3. Choose your email digest frequency (None, Daily, or Weekly)
 
-By default, notifications are turned off for new accounts. Enable the ones that matter to your workflow.
+If you have not saved preferences yet, the switches on **Settings**, then **Notifications**, show as on: Task assignments, Tasks due soon, Overdue tasks, New comments, Team activity, and Releases due soon. Email digest starts at **None**. Saving a toggle writes your choices.
 
 Available toggles:
 

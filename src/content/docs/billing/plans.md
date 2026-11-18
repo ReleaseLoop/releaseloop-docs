@@ -1,59 +1,67 @@
 ---
 title: Plans & Pricing
-description: Three lifetime plans built for independent artists, labels, and agencies -- pay once, use ReleaseLoop forever.
+description: Lifetime access to ReleaseLoop for $49 per seat. Pay once, choose how many seats you need, and get every feature.
 ---
 
-ReleaseLoop is sold as a **lifetime deal**: pay once, keep access forever. Three tiers cover how the music industry actually works -- from solo artists managing their own releases to agencies running a full roster.
+ReleaseLoop is a lifetime purchase. A seat is **$49**, paid once. You choose how many seats the workspace needs, and each seat unlocks the full plan. New workspaces do not get a monthly bill.
 
-## Plan comparison
+Every new workspace starts with **14 days of full access**. Sign-up asks for your name, email, and password. It does not ask for a card. The trial starts when the workspace is created. During those 14 days the workspace has the full plan, including unlimited storage. When the trial ends, the workspace owner buys lifetime seats from the **Billing** page. After that purchase, storage is 1 GB per seat.
+
+## What a lifetime seat includes
+
+| | Lifetime access |
+|---|---|
+| **Price** | $49 per seat, one time |
+| **Seats per checkout** | Up to 50 |
+| **Releases** | Unlimited |
+| **Artists** | Unlimited |
+| **Contacts** | Unlimited |
+| **EPKs** | Unlimited |
+| **Storage** | 1 GB per seat |
+
+The Billing page multiplies the seat price by the number you choose. Three seats are $147. One seat is one team member.
+
+The seat panel lists what the purchase unlocks:
+
+- Unlimited releases, artists, and contacts
+- Unlimited EPKs and artist statements
+- Royalty imports and payout statements
+- Release templates and Google Drive
+- Marketing planner and budget tracking
+- 1 GB storage included per seat
+
+The full plan also includes task checklists, the calendar, activity history, and custom statement branding.
+
+## Buying seats
+
+On **Billing**, a workspace that does not already have lifetime seats sees **Lifetime access: $49 per seat**. The picker starts at the current team size, and **Get lifetime access** opens Stripe checkout. See [Managing Your Billing](/billing/subscription/).
+
+You can buy more seats later from **Add seats**. Each checkout can include up to 50 seats.
+
+If the workspace still has a monthly subscription, the first lifetime seat purchase cancels that Stripe subscription as part of switching the workspace to lifetime access.
+
+## Older tiered lifetime plans
+
+Workspaces that already own Solo Lifetime, Label Lifetime, or Agency / Pro Lifetime keep the limits of the plan they bought. Those tiers are not offered to a new workspace. On Billing they appear only as an upgrade for a workspace that already has one of these lifetime plans. The price on the card is the difference, and the button says **Upgrade**.
 
 | | Solo Lifetime | Label Lifetime | Agency / Pro Lifetime |
 |---|---|---|---|
-| **Price** | $149 one-time | $299 one-time | $499 one-time |
-| **Seats** | 1 | 3 | 10 |
+| **Price** | $149 one time | $299 one time | $499 one time |
+| **Seats included** | 1 | 3 | 10 |
 | **Releases** | 15 | 150 | 1,000 |
 | **Artists** | 5 | 75 | 250 |
 | **Contacts** | 100 | 1,000 | Unlimited |
 | **EPKs** | 5 | 75 | Unlimited |
 | **Storage** | 1 GB | 25 GB | 100 GB |
 
-## Feature availability by plan
+The upgrade cards describe the tiers like this:
 
-### All plans include
-- Release management (tracks, statuses, metadata, UPCs, ISRCs)
-- Task management with assignments, due dates, and subtask checklists
-- Calendar view
-- Budget and expense tracking
-- Activity history
-- Marketing planner
-- Electronic Press Kits (EPKs)
-- Artist statements (Solo: 3 per quarter)
+- **Solo Lifetime:** release management, tracks and tasks, the release calendar, budget tracking, activity history, the marketing planner, an electronic press kit, and artist statements (3 per quarter).
+- **Label Lifetime** adds unlimited artist statements, custom statement branding, release templates, royalty imports, Google Drive, and 3 team seats.
+- **Agency / Pro Lifetime** adds payout statements, 250 artists and 1,000 releases, unlimited contacts and EPKs, 10 team seats, and priority support.
 
-### Label Lifetime adds
-- **Unlimited artist statements** with custom statement branding
-- **Release templates** -- standardize your rollout so every single follows the same proven plan
-- **Royalty CSV imports** -- pull in distributor statements from DistroKid, TuneCore, CD Baby, or any other distributor and match them to your catalog
-- **Google Drive integration** -- browse your folders of master WAVs, artwork, and promo assets directly from the release page
-- 3 team seats
+Agency / Pro workspaces that were bought with an unlimited roster keep unlimited artists and releases. Buying extra seats on one of these plans raises the seat limit and leaves the tier in place. It does not switch the workspace to the unlimited full plan. A first seat purchase on a trial or monthly workspace does switch the workspace to the full plan.
 
-### Agency / Pro Lifetime adds
-- **Payout statements** -- generate statements so you can settle with your artists quarterly, monthly, or on whatever schedule you agree to
-- Up to **1,000 releases** and **250 artists**, with unlimited contacts and EPKs
-- 10 team seats
-- **Priority support** -- faster response times when you need help
+## Enterprise
 
-## Upgrading between tiers
-
-You can upgrade to a higher tier at any time by paying the difference between your current plan and the new one. Your data, settings, and team stay exactly as they are -- only your limits and features change.
-
-## Add-ons
-
-Need more capacity without changing tiers? Lifetime workspaces can buy **additional team seats** as a one-time purchase from the **Billing** page. See [Team Members & Roles](/team/members/) for how seat limits work.
-
-## Which plan is right for you
-
-- **Solo Lifetime** -- you are an independent artist managing your own releases, or a manager with a small roster. You handle everything yourself and need a clean system to track your rollouts, tasks, and marketing.
-- **Label Lifetime** -- you run a label or management company with collaborators and artists who expect proper accounting. You need templates to keep your process consistent, royalty imports to track what your distributors pay out, and seats for your team.
-- **Agency / Pro Lifetime** -- you run an agency or larger label with an extensive roster. You need room for up to 250 artists and 1,000 releases, payout statements, a bigger team, and priority support.
-
-Existing Agency / Pro workspaces bought with unlimited artists and releases retain those limits. For a new workspace that needs more than 250 artists or 1,000 releases, contact [support@releaseloop.com](mailto:support@releaseloop.com) about Enterprise capacity.
+The marketing site lists Enterprise as custom-priced for distributors and large rosters. The Billing page does not show an Enterprise card. Contact [support@releaseloop.com](mailto:support@releaseloop.com) about that.

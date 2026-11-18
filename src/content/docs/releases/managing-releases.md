@@ -11,15 +11,16 @@ Releases are the core of ReleaseLoop. Each release represents a single, EP, or a
 
 Whether you are setting up a new single for an emerging artist or building out a full album campaign, the process starts the same way:
 
-1. Click **New Release** from the releases page or dashboard
-2. Fill in the details:
-   - **Title** -- the release name as it will appear on DSPs
-   - **Primary artist(s)** -- select from your artist roster
-   - **Release date** -- the planned street date (you can adjust this later if mastering or distributor timelines shift)
-   - **Type** -- Single, EP, or Album
-   - **UPC** -- the Universal Product Code assigned by your distributor (add it now or fill it in once you receive it from DistroKid, TuneCore, CD Baby, etc.)
-   - **Catalogue number** -- your label's internal reference, useful for tracking across distributor dashboards and royalty statements
-3. Click **Create**
+1. Click **New Release** on the releases page. The dialog title is **Create New Release**.
+2. Fill in the fields the dialog actually shows:
+   - **Title**
+   - **Artists**, added from your roster. Each artist has a role: Primary, Featured, Remixer, or Producer.
+   - **Release Date** (required)
+   - **Release Type** (optional). The list is None, Single, EP, Album, Compilation, Mixtape, Digital, CD, Vinyl, and Tape.
+   - **Template**. The choices are Default Template, No Template, or one of your saved templates. The note says this applies tasks and marketing activities with dates relative to the release.
+3. Click **Create Release**
+
+UPC, Catalog #, Label, Spotify URL, and Apple Music URL are not on this dialog. Open the release and click **Edit** to set them.
 
 ![Create new release dialog with title, artists, date, type, and template fields](../../../assets/screenshots/create-release.png)
 
@@ -50,7 +51,7 @@ Click on any release to open its detail page. From there you can:
 - Update metadata like title, artists, dates, UPC, and catalogue number -- handy when your distributor assigns a UPC after delivery or the street date shifts
 - Change the release status as the campaign progresses
 - Set or swap the cover art
-- Access all tabs: Tracks, Tasks, Financials, Royalties, Marketing, Assets, Comments, and Activity
+- Access the tabs: Tracks, Tasks, Assets, Discussion, Financials (when your role can see financials), Marketing (when your role can see marketing), and Activity
 
 ## Deleting a release
 
@@ -65,4 +66,4 @@ Each release has dedicated tabs for managing different aspects of the campaign:
 - [Financials](/financials/budgets/) -- budget and revenue tracking
 - [Marketing](/releases/marketing/) -- your promotional rollout across social, DSPs, press, and email
 - [Assets](/releases/assets/) -- artwork, master WAVs, promo photos, and other files
-- [Comments](/releases/comments/) -- team discussion and a full activity log
+- [Discussion](/releases/comments/) -- the tab is labeled Discussion. Activity is its own tab.

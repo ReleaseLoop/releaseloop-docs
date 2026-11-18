@@ -9,14 +9,16 @@ ReleaseLoop is built for teams. Invite your A&R, marketing, publicists, and mana
 
 ## Inviting team members
 
-1. Go to **Settings > Team Members**
+Only the workspace owner sees **Invite Member**.
+
+1. Go to **Settings**, then the **Team** tab
 2. Click **Invite Member**
 3. Enter their email address
-4. Select their **Role** (what they can do)
-5. Set their **Access** -- either **Entire workspace** or **Specific artists** (see [Artist access](#artist-access) below)
-6. They will receive an email invitation to join your workspace
+4. Select their **Role** (Admin, A&R, Marketing, or Member)
+5. Set their **Access** to **Entire workspace** or **Specific artists** (see [Artist access](#artist-access) below)
+6. They receive an invitation. If they do not already have an account, the dialog says they will receive an invite link
 
-You can also generate a **shareable invite link** -- useful when onboarding a new hire or bringing a freelance publicist into the workspace.
+Pending invitations have **Copy invite link**. The link looks like `https://app.releaseloop.com/join/` followed by a token.
 
 ## Roles
 
@@ -24,11 +26,13 @@ Each team member is assigned a role that controls what they can see and do. This
 
 | Role | What they can do |
 |------|-----------------|
-| **Owner** | Full control -- billing, team management, all features. Typically the label owner or lead manager. |
-| **Admin** | Manage releases, artists, contacts, and team members. Your operations lead or label manager. |
-| **A&R** | Manage releases and artists. Perfect for A&R reps who need to update metadata, manage tracks, and work with the roster. |
-| **Marketing** | Manage marketing activities. Your publicist, social media manager, or promo coordinator only needs this. |
-| **Member** | View access with basic edits. Good for interns, consultants, or anyone who needs visibility without full control. |
+| **Owner** | The person who owns the workspace. Only the owner can open Billing, invite people, change roles, and edit Role Permissions. |
+| **Admin** | Full access to financials, contacts, and marketing, the same as the owner for those areas. The invite button and the Billing page stay with the owner. |
+| **A&R** | A role the owner can limit. New workspaces start with contacts and marketing on, and financials off. |
+| **Marketing** | Same starting access as A&R: contacts and marketing on, financials off. |
+| **Member** | Same starting access as A&R: contacts and marketing on, financials off. |
+
+The **Role Permissions** card is on **Settings**, then **Team**. It says owners and admins always have full access. The owner can turn **Financials & Royalties**, **Contacts**, and **Marketing** on or off for A&R, Marketing, and Member. Artist-scoped members do not see contacts or financials even if the role checkbox is on.
 
 ## Artist access
 
@@ -45,11 +49,11 @@ When you choose **Specific artists** during invite (or when editing a member), a
 
 This is built for collaborators you do not want to expose to the whole catalogue: a tour manager or day-to-day manager for one act, a freelance publicist working a single campaign, or an A&R contact tied to one signing. Access is enforced on the server, not just hidden in the interface.
 
-You can change a member's access at any time from **Settings > Team Members** -- switch between Entire workspace and Specific artists, or adjust which artists are assigned.
+The workspace owner can change a member's access at any time from **Settings**, then **Team**. Switch between Entire workspace and Specific artists, or adjust which artists are assigned.
 
 ## Managing members
 
-From **Settings > Team Members** you can:
+From **Settings**, then **Team**, the workspace owner can:
 
 - View all current members, their roles, and their artist access
 - Change a member's role -- e.g., promote someone from Member to A&R as they take on more responsibility
@@ -60,18 +64,16 @@ From **Settings > Team Members** you can:
 
 ## Seat limits
 
-The number of team members depends on your plan:
+Each lifetime seat ($49, one time) is one team member. The workspace can have as many members as the seats you have bought. Workspaces on the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans) include a fixed number of seats:
 
 | Plan | Seats |
 |------|-------|
+| **Lifetime seats** | As many as you buy |
 | **Solo Lifetime** | 1 |
 | **Label Lifetime** | 3 |
 | **Agency / Pro Lifetime** | 10 |
 
-If you need more seats than your plan includes, you have two options:
-
-- **Buy additional seats.** Lifetime workspaces can purchase extra team seats as a one-time add-on from the **Billing** page -- pick a quantity, see your projected seat limit, and check out. No plan change needed.
-- **Upgrade your plan.** Moving to a higher tier raises the included seat count along with all other limits. See [Plans & Pricing](/billing/plans/).
+When every seat is in use, **Invite Member** stays visible to the owner but shows **Team Member Limit Reached**, with a link to **Add more seats** on Billing. See [Plans & Pricing](/billing/plans/).
 
 ## Joining via invitation
 

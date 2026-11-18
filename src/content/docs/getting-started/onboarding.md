@@ -1,56 +1,61 @@
 ---
 title: Onboarding Walkthrough
-description: A step-by-step guide through account setup -- from naming your workspace to planning your first release campaign.
+description: The four onboarding steps, from naming the workspace to the screen that sends you to the dashboard.
 ---
 
-When you first sign up for ReleaseLoop, you'll walk through a four-step onboarding flow that sets up your workspace and gets your first release on the board. The whole thing takes a couple of minutes.
+The first time you create a workspace, ReleaseLoop walks you through four steps. The first screen says it takes under 2 minutes. You can skip the artist and the release.
 
-## Step 1: Workspace setup
+## Step 1: Workspace
 
-- **Name your workspace** -- this is the home base for your operation. If you run a label, use the label name. If you manage artists, use your company name. If you're an independent artist, your project or artist name works great.
-- **Select your role** -- label, artist manager, artist, distributor, PR/marketing, or other. This helps ReleaseLoop tailor the experience to how you work.
+The heading is **Welcome to ReleaseLoop**.
 
-Your workspace is the shared space where all your releases, artists, contacts, and team members live. Everyone you invite will see the same data, filtered by the permissions you set.
+- **Workspace name.** The hint says this is typically your label name or brand name. The field placeholder is "e.g., Midnight Records, Artist Management Co."
+- **What best describes you?** The options are Record Label, Artist Manager, Artist / Self-releasing, Distributor, PR / Marketing, and Other.
+
+Click **Create Workspace**.
 
 ## Step 2: Add your first artist
 
-You have two options:
+The heading is **Add your first artist**. The subtitle says you can search Spotify or add the artist manually.
 
-- **Search Spotify** -- type an artist name and select the right profile. ReleaseLoop will pull in their profile photo, monthly listener count, and popularity score automatically. This keeps your roster up to date without manual data entry.
-- **Create manually** -- if the artist isn't on Spotify yet (maybe this is a debut release), just type in their name and fill in what you have.
+Type in **Artist Name**. Search runs as you type, and the search button next to the field is labeled **Search Spotify**. Each result shows the artist name and Spotify follower count.
 
-You can always add more artists later. If you manage a roster of ten or fifty artists, you'll build that out from the Artists page after onboarding.
+- Select a result to add that artist. ReleaseLoop stores the profile photo, follower count, and popularity score.
+- **Create manually** appears once the name field has text.
+- **Skip for now** leaves this step without an artist.
 
 ## Step 3: Create your first release
 
-Fill in the basics for your next drop:
+The heading is **Create your first release**.
 
-- **Title** -- the release name as it will appear on streaming platforms
-- **Artists** -- select from the artists you've added to your workspace
-- **Release date** -- the day the music goes live on DSPs. This anchors your entire timeline -- distributor submission deadlines, playlist pitch windows, and marketing phases all work backward from here.
-- **Type** -- single, EP, or album
+- **Title**
+- **Artist**, shown only if you added one in the previous step. It is that artist, not a picker of the whole roster.
+- **Release Date.** The note under the date says a default template with tasks will be applied automatically.
 
-Don't worry about getting every detail right at this stage. You can update everything later, add tracks with ISRC codes, set budgets, and build out your full campaign from the release detail page.
+This step does not ask for a release type. Single, EP, album, and the other types are on the **Create New Release** dialog after you are in the app. See [Managing Releases](/releases/managing-releases/).
 
-## Step 4: Plan marketing
+Click **Create Release**, or **Skip**.
 
-Kick off your rollout by adding initial marketing activities to the release:
+## Step 4: You're all set
 
-- **Choose platforms** -- Instagram, TikTok, Spotify, YouTube, press outlets, or wherever your audience lives
-- **Set the phase** -- pre-save, release week, or post-release. This helps you see at a glance what needs to happen and when.
-- **Add descriptions** -- note the specifics: "Post teaser clip to TikTok with pre-save link", "Submit to Spotify editorial via Spotify for Artists", "Send press release to playlist curators"
+The last step is a confirmation, not a marketing planner. The heading is **You're all set!**
 
-You can add, edit, and rearrange marketing activities anytime from the release's Marketing tab.
+If you did not arrive from a plan link, you get three choices when they apply:
+
+- **View your release**, if you created one. The subtitle is "Start managing tasks and deadlines."
+- **Explore the dashboard.** The subtitle is "See your workspace overview."
+- **Invite your team.** The subtitle is "Collaborate with your colleagues." This opens Settings.
+
+**Go to Dashboard** finishes onboarding.
+
+If you started from a link to a specific lifetime plan, this step instead says the workspace is ready and the button is **Continue to your plan**.
 
 ## After onboarding
 
-Once you've completed the flow, you'll land on your **Dashboard**:
+The dashboard keeps a short setup checklist until you dismiss it or finish it:
 
-![Dashboard showing onboarding checklist, stats, upcoming releases, and tasks](../../../assets/screenshots/dashboard.png)
+- **Create workspace** (already done)
+- **Add your first artist**
+- **Create your first release**
 
-- **Release statistics** -- a snapshot of where things stand across your active releases
-- **Upcoming releases** -- your next drops at a glance, so you always know what's coming
-- **Onboarding checklist** -- tracks remaining setup steps like inviting team members and connecting integrations
-- **Quick actions** -- jump straight into creating a new release or adding an artist
-
-The onboarding checklist stays on your dashboard until you've completed all the setup steps, then it gets out of your way.
+When all three are done, the card says **Setup complete!** and you can close it.

@@ -6,7 +6,7 @@ description: Stop reinventing the wheel -- create reusable rollout plans so ever
 Templates let you define your rollout playbook once and apply it to every release. Whether it is a 6-week single campaign or a 3-month album cycle, you build the plan one time and reuse it across your entire catalog.
 
 :::note
-Templates require a **Team** or **Label** plan.
+Lifetime seats include release templates. On the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans), custom templates are part of Label Lifetime and Agency / Pro Lifetime, not Solo Lifetime. The Templates page itself does not show a plan lock.
 :::
 
 ## Why templates matter

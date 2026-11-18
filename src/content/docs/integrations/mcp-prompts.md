@@ -1,9 +1,9 @@
 ---
 title: MCP example prompts
-description: Prompts you can paste into Claude, Muse, or Grok after you connect ReleaseLoop with an API key from Settings.
+description: Prompts you can paste into ChatGPT, Claude, Muse, or Grok after ReleaseLoop is connected.
 ---
 
-These prompts assume you already connected the assistant with an API key from [Settings → Integrations](/integrations/mcp/). Paste them into Claude, Muse, or Grok. ChatGPT's connector still needs an OAuth consent flow this server does not offer, so the ChatGPT prompts apply only after that login works.
+Connect ChatGPT from [Open ReleaseLoop in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6abcdc5d4df081919eff8b8b4fc25240). Claude, Muse, and Grok use an API key from [Settings, then Integrations](/integrations/mcp/). Paste a prompt after that connection is in place.
 
 If you belong to more than one workspace, name the one you mean. The assistant will not guess.
 
@@ -35,7 +35,7 @@ On the Night Bus release, add a Marketing task called Pitch playlists. Leave it 
 
 ## ChatGPT
 
-Use these only after ChatGPT can sign you in. An API key does not complete that step. The requests are the same ones you would give Claude.
+[Open ReleaseLoop in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6abcdc5d4df081919eff8b8b4fc25240), sign in, and click **Allow connection**. ChatGPT does not use an API key. The requests are the same ones you would give Claude. Setup is on [AI assistants (MCP)](/integrations/mcp/#chatgpt).
 
 ```text
 List my ReleaseLoop workspaces. Then list the contacts in the workspace I name. If I am not allowed to see contacts, say so. Do not make up any contacts.
