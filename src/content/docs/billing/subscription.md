@@ -46,7 +46,7 @@ The seat limit updates after Stripe confirms the payment.
 
 ## Older tiered lifetime plans
 
-If the workspace already owns Solo Lifetime, Label Lifetime, or Agency / Pro Lifetime, Billing can still show a higher tier. The badge says **Upgrade your lifetime plan**, the price is labeled "to upgrade", and the button says **Upgrade**. Limits for those plans are on [Plans & Pricing](/billing/plans/#older-tiered-lifetime-plans).
+If the workspace already owns Solo Lifetime, Label Lifetime, or Agency / Pro Lifetime, Billing shows any higher tier as an upgrade. The badge says **Upgrade your lifetime plan**. The price is the difference between the current plan and the new one, labeled "to upgrade". **Upgrade** opens Stripe checkout, and the higher tier is active once Stripe confirms the payment. Limits for those plans are on [Plans & Pricing](/billing/plans/#older-tiered-lifetime-plans).
 
 Hitting a limit on one of those plans does not delete existing data. You cannot create new items past the limit until the workspace moves to a higher tier, or, for seats, until you buy more seats.
 

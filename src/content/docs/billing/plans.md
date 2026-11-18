@@ -42,7 +42,7 @@ If the workspace still has a monthly subscription, the first lifetime seat purch
 
 ## Older tiered lifetime plans
 
-Workspaces that already own Solo Lifetime, Label Lifetime, or Agency / Pro Lifetime keep the limits of the plan they bought. Those tiers are not offered to a new workspace. On Billing they appear only as an upgrade for a workspace that already has one of these lifetime plans. The price on the card is the difference, and the button says **Upgrade**.
+Workspaces that already own Solo Lifetime, Label Lifetime, or Agency / Pro Lifetime keep the limits of the plan they bought. Those tiers are not offered to a new workspace. The owner can upgrade to a higher tier from Billing by paying the difference between the current plan and the new one. The card shows that difference, the button says **Upgrade**, and the higher tier is active once Stripe confirms the payment.
 
 | | Solo Lifetime | Label Lifetime | Agency / Pro Lifetime |
 |---|---|---|---|
@@ -58,7 +58,7 @@ The upgrade cards describe the tiers like this:
 
 - **Solo Lifetime:** release management, tracks and tasks, the release calendar, budget tracking, activity history, the marketing planner, an electronic press kit, and artist statements (3 per quarter).
 - **Label Lifetime** adds unlimited artist statements, custom statement branding, release templates, royalty imports, Google Drive, and 3 team seats.
-- **Agency / Pro Lifetime** adds payout statements, 250 artists and 1,000 releases, unlimited contacts and EPKs, 10 team seats, and priority support.
+- **Agency / Pro Lifetime** adds payout statements, 250 artists and 1,000 releases, unlimited contacts and EPKs, 10 team seats, and priority support: great, responsive support.
 
 Agency / Pro workspaces that were bought with an unlimited roster keep unlimited artists and releases. Buying extra seats on one of these plans raises the seat limit and leaves the tier in place. It does not switch the workspace to the unlimited full plan. A first seat purchase on a trial or monthly workspace does switch the workspace to the full plan.
 
