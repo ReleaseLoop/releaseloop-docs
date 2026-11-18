@@ -31,14 +31,15 @@ Example requests are on [MCP example prompts](/integrations/mcp-prompts/#chatgpt
 
 ## Claude
 
-Claude signs in with OAuth too, so it does not need an API key. This works on claude.ai, Claude Desktop, and the Claude mobile apps.
+ReleaseLoop is an official connector in Claude's directory. It signs in with OAuth, so Claude does not need an API key. This works on claude.ai, Claude Desktop, and the Claude mobile apps.
 
-1. In Claude, open **Settings**, then **Connectors**, and choose **Add custom connector**.
-2. Name it ReleaseLoop and paste the server URL `https://mcp.releaseloop.com`.
-3. Click **Connect**. Claude opens the same **Connect your account** page described above.
-4. Review what you are allowing, then click **Allow connection**.
+1. [Open ReleaseLoop in Claude](https://claude.ai/directory/releaseloop).
+2. Click **Connect**. Claude opens the same **Connect your account** page described above.
+3. Review what you are allowing, then click **Allow connection**.
 
-On Team and Enterprise plans, an owner may need to add the connector for the organization first.
+You can also find it by searching for ReleaseLoop in Claude's **Connectors** settings. On Team and Enterprise plans, an owner may need to enable the connector for the organization first.
+
+If the directory listing is not available to you yet, add it by hand: in Claude, open **Settings**, then **Connectors**, choose **Add custom connector**, and paste `https://mcp.releaseloop.com`. It uses the same sign-in.
 
 The connection then appears under **Connected assistants** in Settings, Integrations, and **Revoke access** removes it there. You can also disconnect ReleaseLoop from Claude's Connectors settings.
 
