@@ -1,6 +1,6 @@
 ---
 title: AI assistants (MCP)
-description: Open the ReleaseLoop connector in ChatGPT, or connect Claude, Muse, or Grok with an API key from Settings.
+description: Connect ReleaseLoop to ChatGPT or Claude with a sign-in, or to Muse, Grok, and config-file clients with an API key from Settings.
 ---
 
 An AI assistant can read your ReleaseLoop workspace and create or update releases and tasks. It uses your account, so it can only see and change what you can.
@@ -29,9 +29,24 @@ After you allow a connection, **Connected assistants** on that Integrations scre
 
 Example requests are on [MCP example prompts](/integrations/mcp-prompts/#chatgpt).
 
+## Claude
+
+Claude signs in with OAuth too, so it does not need an API key. This works on claude.ai, Claude Desktop, and the Claude mobile apps.
+
+1. In Claude, open **Settings**, then **Connectors**, and choose **Add custom connector**.
+2. Name it ReleaseLoop and paste the server URL `https://mcp.releaseloop.com`.
+3. Click **Connect**. Claude opens the same **Connect your account** page described above.
+4. Review what you are allowing, then click **Allow connection**.
+
+On Team and Enterprise plans, an owner may need to add the connector for the organization first.
+
+The connection then appears under **Connected assistants** in Settings, Integrations, and **Revoke access** removes it there. You can also disconnect ReleaseLoop from Claude's Connectors settings.
+
+Example requests are on [MCP example prompts](/integrations/mcp-prompts/#claude).
+
 ## Create a key
 
-Claude, Muse, and Grok use a key instead of the ChatGPT sign-in.
+Muse, Grok, and clients configured with a JSON file use a key instead of a sign-in. Claude can use a key this way too, but the sign-in above is simpler.
 
 1. Open [Settings](https://app.releaseloop.com/settings?tab=integrations).
 2. Go to **Integrations**. The card is titled **AI assistants**.
