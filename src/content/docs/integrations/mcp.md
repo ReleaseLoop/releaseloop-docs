@@ -98,7 +98,7 @@ On **Settings**, then **Integrations**, each active key has **Rotate** and **Rev
 
 ## What the assistant can do
 
-It can look up your workspaces, artists, releases, tasks, contacts, and royalty imports. On one release it can summarize credits, tracks, tasks, marketing, and budget. For royalties, it can open one import and summarize the rows that matched a release. It does not return the raw royalty file.
+It can look up your workspaces, artists, releases, tasks, contacts, and royalty imports. Releases come back newest first, and you can ask for a date range, such as "releases coming up from today" or "everything out in 2025". On one release it can summarize credits, tracks, tasks, marketing, and budget. For royalties, it can open one import and summarize the rows that matched a release. It does not return the raw royalty file.
 
 It can create and update releases and tasks. It cannot delete anything. It will not change deal terms or file links.
 
