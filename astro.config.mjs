@@ -5,6 +5,10 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://docs.releaseloop.com',
+	redirects: {
+		'/getting-started/onboarding-walkthrough': '/getting-started/onboarding/',
+		'/billing/managing-subscription': '/billing/subscription/',
+	},
 	integrations: [
 		starlight({
 			title: 'ReleaseLoop Docs',
@@ -90,7 +94,7 @@ export default defineConfig({
 					label: 'Billing & Plans',
 					items: [
 						{ label: 'Plans & Pricing', slug: 'billing/plans' },
-						{ label: 'Managing Your Subscription', slug: 'billing/subscription' },
+						{ label: 'Managing Your Billing', slug: 'billing/subscription' },
 					],
 				},
 				{

@@ -34,10 +34,11 @@ This is ideal if your team already organizes assets in shared Drive folders -- y
 
 ## Storage limits
 
-File storage is limited by your subscription plan:
+Storage depends on the plan. Lifetime access includes **1 GB per seat**, so a 3-seat workspace has 3 GB. During the 14-day trial, storage is unlimited. Workspaces on the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans) keep their included storage, and any storage they have already purchased is added on top:
 
 | Plan | Storage |
 |------|---------|
+| **Lifetime seats** | 1 GB per seat |
 | **Solo Lifetime** | 1 GB |
 | **Label Lifetime** | 25 GB |
 | **Agency / Pro Lifetime** | 100 GB |

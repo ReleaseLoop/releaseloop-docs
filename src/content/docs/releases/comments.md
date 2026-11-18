@@ -3,11 +3,11 @@ title: Comments & Activity
 description: Coordinate with your team on release decisions and keep a full audit trail of every change.
 ---
 
-Each release has **Comments** and **Activity** tabs so your team can communicate in context and you can track exactly what happened and when.
+Each release has a **Discussion** tab and an **Activity** tab. Discussion is where the team writes. Activity is the log of what changed.
 
-## Comments
+## Discussion
 
-The Comments tab is a threaded discussion space tied directly to the release. Instead of digging through email chains or group chats to find that one message about the artwork revision, everything lives right alongside the release it is about.
+The Discussion tab is the release's comment thread. Instead of digging through email chains or group chats to find that one message about the artwork revision, everything lives right alongside the release it is about.
 
 - Post messages visible to all workspace members with access to the release
 - Use **@mentions** to tag specific team members -- notify your designer that artwork needs a revision, flag the artist's manager about a date change, or loop in your marketing lead on a playlist pitch update

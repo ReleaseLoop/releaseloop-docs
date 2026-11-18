@@ -48,11 +48,11 @@ The preview shows exactly how many rows will import, how many were skipped as du
 
 ## Plan limits
 
-Imports respect your plan's [contact limit](/contacts/managing-contacts/#plan-limits). If your file has more contacts than your remaining space, ReleaseLoop imports as many as will fit and leaves the rest out -- the preview tells you how many were deferred. To bring in the remainder, upgrade your plan and run the import again; the duplicates already imported will be skipped automatically.
+Imports respect your plan's [contact limit](/contacts/managing-contacts/#plan-limits). Lifetime seats have no contact cap. On an older tiered plan that still has a cap, a file that is larger than the remaining space imports what will fit and leaves the rest out. The preview tells you how many were deferred. Raise the limit from Billing, then run the import again. Rows already imported are skipped as duplicates.
 
 ## Tips
 
 - Export from your spreadsheet tool as CSV -- avoid pasting data into the file by hand
 - Include a header row; the importer uses it to suggest column mappings
 - Keep one contact per row
-- If you're close to your plan limit, trim your file or upgrade first so nothing is left behind
+- If a tiered plan is close to its contact limit, trim the file or raise the limit first so nothing is left behind

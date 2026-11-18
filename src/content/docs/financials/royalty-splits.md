@@ -6,7 +6,7 @@ description: Configure how revenue from each release is divided between artists,
 Most releases involve more than one person who needs to get paid. Between the artist, the label, producers, songwriters, and managers, you need a clear breakdown of who gets what percentage. Royalty splits in ReleaseLoop let you define that breakdown per release -- and the system uses it to calculate payout amounts automatically when you generate statements.
 
 :::note
-Royalty splits require a **Team** or **Label** plan.
+Royalty splits are edited on a release's **Financials** tab, which is shown when your role can see financials. The tab is not limited to one paid tier. Lifetime seats include it. Owners and admins always have financials access. For A&R, Marketing, and Member, financials starts off and the workspace owner can turn it on from **Settings**, then **Team**, under **Role Permissions**.
 :::
 
 ## Setting up splits

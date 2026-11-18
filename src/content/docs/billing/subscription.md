@@ -1,47 +1,55 @@
 ---
 title: Managing Your Billing
-description: Buy a lifetime plan, upgrade between tiers, add team seats, and manage payment details through Stripe.
+description: Buy lifetime seats at $49 each, add more seats later, and open the Stripe portal for an older monthly subscription.
 ---
 
-Billing is handled through the **Billing** page, accessible from the sidebar. ReleaseLoop plans are [lifetime deals](/billing/plans/) -- you pay once, so there is no recurring subscription to maintain.
+Billing is the **Billing** page in the sidebar. ReleaseLoop for a new workspace is a [lifetime purchase](/billing/plans/) at $49 per seat. You pay once.
 
-## Viewing your plan and usage
+Only the workspace **owner** can open Billing. Everyone else sees **Access Denied** and the text "Only workspace owners can access billing settings." If the 14-day trial has ended, a non-owner instead sees **Your 14-day full access ended** and is told to ask the owner to choose a lifetime plan.
 
-The Billing page shows:
+## What the page shows
 
-- Your current plan name and status
-- Usage against your limits -- releases, artists, contacts, storage, and team seats
-- Options to upgrade or add seats
+While the trial is open, a banner shows how many days of full access are left, for example "14 days of full access remaining", plus "You have full access right now. Choose a lifetime plan to keep it."
 
-## Upgrading your plan
+Usage is five counts:
 
-When your operation grows -- you sign more artists, bring on team members, or need royalty imports and payout statements -- upgrading takes about 30 seconds:
+- **Active releases**
+- **Artists**
+- **Team seats**, with how many are used and how many are available
+- **Contacts**
+- **Storage**
 
-1. Go to the **Billing** page
-2. Compare plans and click **Upgrade** on the tier you want -- the price shown is the difference between your current plan and the new one
-3. You are redirected to Stripe's secure checkout
-4. Complete the one-time payment
-5. Your workspace is upgraded immediately -- new features and higher limits are available right away
+A lifetime workspace also shows **Lifetime Access**. If the plan is the full plan, the line under it says you can add more seats anytime. If the workspace is still on an older tiered lifetime plan, it says you can upgrade to a higher tier or add seats.
 
-## Adding team seats
+## Buying lifetime access
 
-Lifetime workspaces can buy extra seats without changing plans:
+1. Go to **Billing**.
+2. In **Lifetime access: $49 per seat**, set how many seats you need. The picker starts at the current team size. The most you can buy in one checkout is 50. The total is the seat price times that number.
+3. Click **Get lifetime access**. Stripe checkout opens.
+4. After Stripe confirms payment, the workspace becomes a lifetime workspace on the full plan.
 
-1. On the **Billing** page, find the **Add lifetime seats** panel
-2. Choose a quantity -- the panel shows the total price and your projected seat limit
-3. Click **Buy seats** and complete Stripe checkout
-4. Your seat limit increases as soon as payment is confirmed
+The panel says "Pay once, use it forever." One seat is one team member.
 
-See [Team Members & Roles](/team/members/) for how seats and roles work.
+If the workspace has more members than the number of seats you pick, Billing says everyone stays, and that you need a seat for each person before inviting more.
 
-## Who can manage billing
+A workspace that still has a monthly subscription can buy these seats. That purchase cancels the Stripe subscription so the workspace is not billed monthly again.
 
-Only workspace **Owners** and **Admins** can access the Billing page and make purchases. This means your A&R and marketing team members will not accidentally change your plan or see payment details.
+## Adding seats
 
-## What happens when you hit a limit
+A workspace that already has lifetime access sees **Add seats** instead of the first-purchase panel:
 
-If you reach a plan limit -- for example, you have 15 releases on the Solo plan and try to create a 16th -- you will see a message prompting you to upgrade. Your existing data is never deleted or locked. You just cannot create new items beyond the limit until you move to a higher tier (or, for seats, buy an add-on).
+1. On **Billing**, find **Add seats**.
+2. Choose how many seats to add. The panel shows the price per seat, the new seat limit, and the total.
+3. Click **Buy seats** and finish Stripe checkout.
 
-## Legacy monthly subscriptions
+The seat limit updates after Stripe confirms the payment.
 
-If your workspace is on an older monthly or annual subscription, click **Manage Subscription** on the Billing page to open the Stripe customer portal, where you can update your payment method, view invoices, or cancel. If you cancel, you keep access until the end of the billing period and your data is preserved -- release metadata, artist profiles, contacts, and financials all stay intact.
+## Older tiered lifetime plans
+
+If the workspace already owns Solo Lifetime, Label Lifetime, or Agency / Pro Lifetime, Billing can still show a higher tier. The badge says **Upgrade your lifetime plan**, the price is labeled "to upgrade", and the button says **Upgrade**. Limits for those plans are on [Plans & Pricing](/billing/plans/#older-tiered-lifetime-plans).
+
+Hitting a limit on one of those plans does not delete existing data. You cannot create new items past the limit until the workspace moves to a higher tier, or, for seats, until you buy more seats.
+
+## Older monthly subscriptions
+
+If the workspace is still on a monthly subscription, Billing shows **Manage subscription**. That opens the Stripe customer portal, where you can update the payment method, view invoices, or cancel. Canceling keeps access until the end of the billing period. Release metadata, artist profiles, contacts, and financials stay in the workspace. You can also switch to lifetime access by buying seats, as described above.
