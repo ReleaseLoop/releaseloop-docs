@@ -1,6 +1,6 @@
 ---
 title: Managing Your Billing
-description: Buy lifetime seats at $49 each, add more seats later, and open the Stripe portal for an older monthly subscription.
+description: Buy lifetime seats at $49 each, add seats or 10 GB storage packs later, and open the Stripe portal for an older monthly subscription.
 ---
 
 Billing is the **Billing** page in the sidebar. ReleaseLoop for a new workspace is a [lifetime purchase](/billing/plans/) at $49 per seat. You pay once.
@@ -43,6 +43,20 @@ A workspace that already has lifetime access sees **Add seats** instead of the f
 3. Click **Buy seats** and finish Stripe checkout.
 
 The seat limit updates after Stripe confirms the payment.
+
+## Adding storage
+
+**Add storage** is on the same Billing page. A pack is 10 GB for $19, paid once, and it is added on top of the storage the plan already includes (1 GB per lifetime seat, or the included amount on an older tier). The badge says **One-time payment**. The description reads "Each pack adds 10GB for $19.00."
+
+1. On **Billing**, find **Add storage**.
+2. Set **Packs**. One checkout can include up to 50. **Pack size**, **Price per pack**, and **Total** update as you change the number. Two packs are $38.00 and add 20GB.
+3. Click **Buy storage** and finish Stripe checkout.
+
+Only the workspace owner can do this. **Buy storage** is enabled when the workspace has active lifetime access. On a trial, a locked workspace, or a monthly subscription the button is disabled, and the note says "Storage packs are available once this workspace has active lifetime access."
+
+When buying is allowed, the card also states what the chosen packs add and what is already included. One pack on a 2-seat workspace says "Adds 10GB to this workspace. 2GB is already included with the plan."
+
+Details are on [Plans & Pricing](/billing/plans/#storage-packs).
 
 ## Older tiered lifetime plans
 
