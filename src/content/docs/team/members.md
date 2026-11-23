@@ -64,14 +64,7 @@ From **Settings**, then **Team**, the workspace owner can:
 
 ## Seat limits
 
-Each lifetime seat ($49, one time) is one team member. The workspace can have as many members as the seats you have bought. Workspaces on the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans) include a fixed number of seats:
-
-| Plan | Seats |
-|------|-------|
-| **Lifetime seats** | As many as you buy |
-| **Solo Lifetime** | 1 |
-| **Label Lifetime** | 3 |
-| **Agency / Pro Lifetime** | 10 |
+Each lifetime seat ($49, one time) is one team member. The workspace can have as many members as the seats you have bought.
 
 When every seat is in use, **Invite Member** stays visible to the owner but shows **Team Member Limit Reached**, with a link to **Add more seats** on Billing. See [Plans & Pricing](/billing/plans/).
 

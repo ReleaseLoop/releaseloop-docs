@@ -6,7 +6,7 @@ description: Import royalty CSVs from DistroKid, TuneCore, CD Baby, and other di
 Distributors send you royalty statements as CSV files, but making sense of them -- especially across multiple distributors, hundreds of tracks, and several reporting periods -- is a headache. ReleaseLoop lets you import those CSVs directly and automatically matches each row to the right release and track so revenue shows up where it belongs.
 
 :::note
-Royalty imports are included with lifetime seats. On the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans), they are on Label Lifetime and Agency / Pro Lifetime. Solo Lifetime does not include them.
+Royalty imports are included with lifetime seats.
 :::
 
 ## How it works

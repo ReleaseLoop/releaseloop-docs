@@ -6,7 +6,7 @@ description: Browse your folders of master WAVs, artwork, and promo assets direc
 ReleaseLoop integrates with Google Drive so you can browse and link files directly from your Drive without re-uploading them. Your masters, artwork, press photos, and promo assets stay where they are -- ReleaseLoop just gives you a way to access them from the release page.
 
 :::note
-Google Drive is included with lifetime seats. On the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans), it is on Label Lifetime and Agency / Pro Lifetime. Solo Lifetime does not include it. Drive lives in **Settings**, **Integrations**, **Storage**. Only the workspace owner sees **Connect Google Drive**, and only when the plan includes Drive. Anyone else sees "Only the workspace owner can connect Google Drive." An owner whose plan does not include Drive sees "Google Drive is not included in this workspace plan. Upgrade from Billing to connect it."
+Google Drive is included with lifetime seats. Drive lives in **Settings**, **Integrations**, **Storage**. Only the workspace owner sees **Connect Google Drive**, and only when the plan includes Drive. Anyone else sees "Only the workspace owner can connect Google Drive." An owner whose plan does not include Drive sees "Google Drive is not included in this workspace plan. Upgrade from Billing to connect it."
 :::
 
 ## Connecting Google Drive
