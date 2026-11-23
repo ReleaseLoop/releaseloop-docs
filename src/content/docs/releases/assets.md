@@ -34,13 +34,6 @@ This is ideal if your team already organizes assets in shared Drive folders -- y
 
 ## Storage limits
 
-Storage depends on the plan. Lifetime access includes **1 GB per seat**, so a 3-seat workspace has 3 GB. During the 14-day trial, storage is unlimited. Workspaces on the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans) keep their included storage. The workspace owner can add more from **Billing**: each storage pack is 10 GB for $19, paid once, and that space is added on top of the amount in this table. See [Storage packs](/billing/plans/#storage-packs).
-
-| Plan | Storage |
-|------|---------|
-| **Lifetime seats** | 1 GB per seat |
-| **Solo Lifetime** | 1 GB |
-| **Label Lifetime** | 25 GB |
-| **Agency / Pro Lifetime** | 100 GB |
+Lifetime access includes **1 GB per seat**, so a 3-seat workspace has 3 GB. During the 14-day trial, storage is unlimited. The workspace owner can add more from **Billing**. Each storage pack is 10 GB for $19, paid once, and that space is added on top of the included storage. See [Storage packs](/billing/plans/#storage-packs).
 
 Your current storage usage is visible on the billing page. If you primarily use Google Drive for large files like master WAVs, the Drive integration lets you link those files without counting against your ReleaseLoop storage.

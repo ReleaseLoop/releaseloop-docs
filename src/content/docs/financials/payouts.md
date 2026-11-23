@@ -4,7 +4,7 @@ description: Generate payout statements for your artists based on imported royal
 ---
 
 :::note
-**Looking for artist statements?** The newer [Artist Statements](/financials/artist-statements/) feature is the recommended way to handle royalty payouts. It batch-generates branded PDF statements across all artists, delivers them by email, and gives artists a portal to view their history. Lifetime seats include unlimited statements. On the older Solo Lifetime plan, the cap is 3 per quarter.
+**Looking for artist statements?** The newer [Artist Statements](/financials/artist-statements/) feature is the recommended way to handle royalty payouts. It batch-generates branded PDF statements across all artists, delivers them by email, and gives artists a portal to view their history. Lifetime seats include unlimited statements.
 
 This page covers the per-release payout view, which is useful for reviewing individual release financials.
 :::
@@ -12,7 +12,7 @@ This page covers the per-release payout view, which is useful for reviewing indi
 If you run a label or manage multiple artists, you know the drill: royalties come in from distributors, and you need to figure out who gets what. Payout statements in ReleaseLoop take the royalty data you've already imported and calculate what's owed to each artist -- so you can stop wrestling with spreadsheets and start sending accurate statements on a regular schedule.
 
 :::note
-Payout statements are included with lifetime seats. On the [older tiered plans](/billing/plans/#older-tiered-lifetime-plans), they are on Agency / Pro Lifetime. Solo Lifetime and Label Lifetime do not include them.
+Payout statements are included with lifetime seats.
 :::
 
 ## Overview
