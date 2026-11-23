@@ -5,6 +5,18 @@ description: Connect ReleaseLoop to ChatGPT or Claude with a sign-in, or to Muse
 
 An AI assistant can read your ReleaseLoop workspace and create or update releases and tasks. It uses your account, so it can only see and change what you can.
 
+## Where to find it in ReleaseLoop
+
+Open [Settings, then Integrations](https://app.releaseloop.com/settings?tab=integrations). The Integrations tab has three sections, and the one you pick is kept in the page address:
+
+- **AI assistants** (ChatGPT, Claude): sign-in connections, no key needed.
+- **API keys** (Muse, Grok, other clients): personal keys for MCP clients.
+- **Storage** (Google Drive): see [Google Drive](/integrations/google-drive/).
+
+**AI assistants** opens first. It shows a card for **ChatGPT** and a card for **Claude**. Before you connect, a card has the badge **Official** and the button **Add to ChatGPT** or **Add to Claude**. Once your account has connected that assistant, the badge says **Connected**, the card shows the date, and the button becomes **Open in ChatGPT** or **Open in Claude**.
+
+Below the cards, **Connected assistants** lists every assistant your account has allowed. The last line of the section links to **Create an API key** for Muse, Grok, or another MCP client.
+
 ## ChatGPT
 
 The ReleaseLoop connector is available in ChatGPT. It signs in with OAuth. ChatGPT does not use an API key.
@@ -23,9 +35,9 @@ It also says access covers the workspaces available to your account, and that th
 
 You can also find the same connector by searching for ReleaseLoop in ChatGPT's apps or connectors. The link above opens the listing directly.
 
-**Settings**, then **Integrations**, also describes a second path: in ChatGPT developer mode, add the server URL `https://mcp.releaseloop.com` and choose OAuth. That path uses the same sign-in and **Allow connection** screen, and it does not need an API key.
+You can also add the server by hand in ChatGPT developer mode: add the server URL `https://mcp.releaseloop.com` and choose OAuth. That path uses the same sign-in and **Allow connection** screen, and it does not need an API key.
 
-After you allow a connection, **Connected assistants** on that Integrations screen lists it, with the date it was connected. **Revoke access** removes it. The assistant has to ask again before it can connect.
+After you allow a connection, **Connected assistants** in **Settings**, **Integrations**, **AI assistants** lists it with the date it was connected, and the ChatGPT card shows **Connected**. Click **Revoke**, then confirm with **Revoke access**. The assistant has to ask again before it can connect.
 
 Example requests are on [MCP example prompts](/integrations/mcp-prompts/#chatgpt).
 
@@ -41,7 +53,7 @@ You can also find it by searching for ReleaseLoop in Claude's **Connectors** set
 
 If the directory listing is not available to you yet, add it by hand: in Claude, open **Settings**, then **Connectors**, choose **Add custom connector**, and paste `https://mcp.releaseloop.com`. It uses the same sign-in.
 
-The connection then appears under **Connected assistants** in Settings, Integrations, and **Revoke access** removes it there. You can also disconnect ReleaseLoop from Claude's Connectors settings.
+The connection then appears under **Connected assistants** in **Settings**, **Integrations**, **AI assistants**, and the Claude card shows **Connected**. **Revoke**, then **Revoke access**, removes it there. You can also disconnect ReleaseLoop from Claude's Connectors settings.
 
 Example requests are on [MCP example prompts](/integrations/mcp-prompts/#claude).
 
@@ -49,8 +61,8 @@ Example requests are on [MCP example prompts](/integrations/mcp-prompts/#claude)
 
 Muse, Grok, and clients configured with a JSON file use a key instead of a sign-in. Claude can use a key this way too, but the sign-in above is simpler.
 
-1. Open [Settings](https://app.releaseloop.com/settings?tab=integrations).
-2. Go to **Integrations**. The card is titled **AI assistants**.
+1. Open [Settings, Integrations, API keys](https://app.releaseloop.com/settings?tab=integrations&section=keys).
+2. The card is titled **Keys and setup**. It also shows the **Server URL** with **Copy URL**.
 3. Name the key (the field placeholder is "Claude on my laptop") and click **Create key**.
 4. Copy the secret. ReleaseLoop shows it once. The dialog title is **Copy this key now**.
 
@@ -70,7 +82,7 @@ Send this header with every request. Replace `rl_mcp_…` with the secret you co
 Authorization: Bearer rl_mcp_…
 ```
 
-The Integrations screen has **Copy URL**, **Copy header**, **Copy config**, and **Copy snippet** for the same config:
+The **API keys** section has **Copy URL**, **Copy header**, **Copy config**, and **Copy snippet** for the same config:
 
 ```json
 {
@@ -90,9 +102,9 @@ Restart the client after you save. Ask it to list your workspaces. A successful 
 
 ## Revoke or rotate a key
 
-On **Settings**, then **Integrations**, each active key has **Rotate** and **Revoke**.
+In **Settings**, **Integrations**, **API keys**, each active key has **Rotate** and **Revoke**.
 
-**Revoke** asks you to confirm. Assistants still holding that key stop on their next request.
+**Revoke** asks you to confirm (**Revoke this key?**). Assistants still holding that key stop on their next request.
 
 **Rotate** issues a new secret, shown once, and the previous secret stops working. Paste the new secret into the client.
 

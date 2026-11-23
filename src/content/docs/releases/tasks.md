@@ -18,6 +18,8 @@ The **Tasks** page in the sidebar shows every task in your workspace, in two vie
 
 Narrow things down with the filter bar: **Artist**, **Release**, **Contact**, **Assignee**, and **Status** filters, plus a **My tasks** toggle that shows only work assigned to you. The **Subtasks** toggle expands or collapses every checklist at once.
 
+Each task shows a badge for what it is attached to. A release task shows the release's catalogue number, or the release title if it has no catalogue number, so recurring tasks with the same name are easy to tell apart.
+
 Clicking a task anywhere in the app opens it in the task editor, where you can update it, re-link it to a different release, artist, or contact, or delete it.
 
 ## Task contexts
@@ -77,7 +79,18 @@ If you have [release templates](/templates/release-templates/) set up, you can i
 3. Select a template
 4. All template tasks will be added to the release
 
+Due dates are counted from the release date. If a task's date would already be in the past, it is due today instead, so a new release never starts with overdue tasks. Several early tasks can share today's date when the release is close.
+
 This is a huge time saver when you follow a consistent release process. Set up a template once with your standard steps -- mastering, distributor delivery, metadata review, playlist pitching, social rollout, press outreach -- and apply it to every new release.
+
+## Exporting a task list to PDF
+
+To send a release's task list to an artist or anyone outside the workspace:
+
+1. Open the release and go to the **Tasks** tab
+2. Click **Export PDF** (it only appears when the release has tasks)
+
+The file downloads as `<release title>-tasks-<date>.pdf`. The sheet shows the release title, artists, release date, type, label, and catalogue number (or UPC), plus how many tasks are complete. Tasks are grouped by phase, and each one shows its status in words and its due date with the year. Tasks without a date say **No date**.
 
 ## Task notifications
 

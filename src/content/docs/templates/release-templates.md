@@ -45,6 +45,8 @@ Each template marketing activity includes:
 3. Select the template you want to apply
 4. All tasks and marketing activities from the template are added to the release, with due dates calculated from the release date
 
+If a task's calculated date is already in the past, it is due today instead. For example, a task set 8 weeks before a release that is 6 weeks out lands on today, not two weeks ago. Later tasks keep their release-relative dates.
+
 You can still edit, add, or remove individual items after importing. Templates give you the starting point -- you customize from there based on what the specific release needs.
 
 ## Managing templates

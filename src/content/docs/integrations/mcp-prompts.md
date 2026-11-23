@@ -3,7 +3,7 @@ title: MCP example prompts
 description: Prompts you can paste into ChatGPT, Claude, Muse, or Grok after ReleaseLoop is connected.
 ---
 
-Connect ChatGPT from [Open ReleaseLoop in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6abcdc5d4df081919eff8b8b4fc25240). Connect Claude from [Open ReleaseLoop in Claude](https://claude.ai/directory/releaseloop) ([setup](/integrations/mcp/#claude)). Muse and Grok use an API key from [Settings, then Integrations](/integrations/mcp/#create-a-key). Paste a prompt after that connection is in place.
+Connect ChatGPT from [Open ReleaseLoop in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6abcdc5d4df081919eff8b8b4fc25240). Connect Claude from [Open ReleaseLoop in Claude](https://claude.ai/directory/releaseloop) ([setup](/integrations/mcp/#claude)). Muse and Grok use an API key from [Settings, Integrations, API keys](/integrations/mcp/#create-a-key). Paste a prompt after that connection is in place.
 
 If you belong to more than one workspace, name the one you mean. The assistant will not guess.
 
